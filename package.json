@@ -1,12 +1,14 @@
 {
   "name": "app",
-  "version": "1.0.50",
+  "version": "1.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest",
+    "@aws-sdk/client-s3": "^3.635.0",
+    "@aws-sdk/lib-storage": "^3.635.0",
+    "elysia": "latest"
   },
   "devDependencies": {
     "bun-types": "latest"
