@@ -3,6 +3,7 @@
 ## Development
 To start the development server run:
 ```bash
+cp .env.example .env
 bun install
 bun run dev
 ```
